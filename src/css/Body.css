@@ -1,0 +1,90 @@
+header{
+	flex-direction: column;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	background-color: #eee;
+}
+.title{
+	background-color: #ddd;
+	border-bottom: #ccc;
+	height: 100px;
+	width: 100%;
+	color: red;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.content{
+	display: flex;
+	justify-content: center;
+	height: 170px;
+}
+
+.clic{
+	width: 150px;
+	height: 150px;
+	border:1px white solid;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.clic:hover{
+	border:1px grey solid;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.clic img{
+	width: 150px;
+}
+
+.res{
+	height: 50px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	color:red;
+}
+
+.blocScore{
+	height: 20px;
+	padding: 10px 0 10px 0;
+	background-color: #eee;
+	display: flex;
+	width: 300px;
+	justify-content: space-between;
+}
+.score{
+	display: flex;
+	width: 100px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.mickey{
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+	
+}
+.mickey img{
+	width: 150px;
+	height: 150px;
+}
+
+.refresh img{
+	width: 50px;
+	height: 50px;
+}
+
+.fight{
+	min-height: 150px;
+	margin-top: 30px;
+}
+.fight img{
+	 width: 200px;
+}
